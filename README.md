@@ -228,9 +228,6 @@ VITE_APP_TITLE=Modern Blogger
 4. Push to branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -239,7 +236,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Tailwind CSS for the utility-first approach
 - Framer Motion for smooth animations
 - Testing Library for excellent testing utilities
-
----
-
-**Built with ❤️ using modern web technologies**
