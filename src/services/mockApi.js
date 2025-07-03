@@ -50,21 +50,12 @@ const loadPosts = () => {
   return [
     {
       id: 1,
-      title: "Welcome to BlogSPA",
+      title: "Welcome to Blogger",
       content:
         "This is a demo blog post to showcase the features of our modern SPA. You can create, read, and comment on posts. The application features a responsive design, dark mode, search functionality, and much more!",
       author: { id: 1, name: "Demo User" },
       createdAt: new Date().toISOString(),
       commentsCount: 2,
-    },
-    {
-      id: 2,
-      title: "Getting Started with React and Redux",
-      content:
-        "React and Redux make a powerful combination for building modern web applications. This post explores the key concepts and best practices for using these technologies together.",
-      author: { id: 1, name: "Demo User" },
-      createdAt: new Date(Date.now() - 86400000).toISOString(), // 1 day ago
-      commentsCount: 1,
     },
   ];
 };
@@ -106,14 +97,6 @@ const loadComments = () => {
       content: "This is exactly what I was looking for. Thanks for sharing!",
       author: { id: 1, name: "Demo User" },
       createdAt: new Date(Date.now() - 3600000).toISOString(), // 1 hour ago
-    },
-    {
-      id: 3,
-      postId: 2,
-      content:
-        "Redux can be tricky at first, but this explanation helps a lot.",
-      author: { id: 1, name: "Demo User" },
-      createdAt: new Date(Date.now() - 7200000).toISOString(), // 2 hours ago
     },
   ];
 };
